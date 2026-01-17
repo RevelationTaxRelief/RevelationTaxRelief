@@ -1,0 +1,12 @@
+{
+  "name": "Revelation Tax Relief Website",
+  "description": "A comprehensive website for 'Revelation Tax Relief' business, established in 2025, featuring services, about us, testimonials, blog, and contact sections, all styled with Tailwind CSS.",
+  "entry": "index.html",
+  "multiPage": false,
+  "files": [
+    "index.html",
+    "metadata.json"
+  ],
+  "tailwind": { "source": "play-cdn" },
+  "generatedAt": "2024-07-30T12:00:00Z"
+}
