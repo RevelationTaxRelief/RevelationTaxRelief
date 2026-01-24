@@ -18,6 +18,8 @@ const footerNavigation = {
     { name: "Contact", href: "/contact" },
     { name: "FAQs", href: "/resources" },
     { name: "Member Login", href: "/login" },
+    { name: "Phone", href: "tel:(949) 993-7311" },
+    { name: "Email", href: "mailto:charles@revelationtaxrelief.com" },
   ],
   legal: [
     { name: "Privacy Policy", href: "/privacy" },
@@ -127,7 +129,7 @@ export function Footer() {
         <div className="mt-12 border-t border-border pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-xs text-muted-foreground">
-              &copy; 2025–2026 Revelation Tax Relief | Los Angeles, CA
+              &copy; 2025–2026 Revelation Tax Relief | Los Angeles, CA | <a href="tel:(949) 993-7311" className="hover:text-foreground transition-colors">(949) 993-7311</a> | <a href="mailto:charles@revelationtaxrelief.com" className="hover:text-foreground transition-colors">charles@revelationtaxrelief.com</a>
             </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">

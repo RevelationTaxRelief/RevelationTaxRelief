@@ -12,6 +12,8 @@ const navigation = [
   { name: "Resources", href: "/resources" },
   { name: "About", href: "/about" },
   { name: "Contact", href: "/contact" },
+  { name: "Call: (949) 993-7311", href: "tel:(949) 993-7311" },
+  { name: "Email: charles@revelationtaxrelief.com", href: "mailto:charles@revelationtaxrelief.com" },
 ]
 
 export function Header() {
