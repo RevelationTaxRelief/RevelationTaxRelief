@@ -1,13 +1,12 @@
 import React from "react"
 import type { Metadata, Viewport } from 'next'
-import { Inter, Geist_Mono } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-import { Header } from '@/components/header'
-import { Footer } from '@/components/footer'
+import { Header } from '/workspaces/RevelationTaxRelief/components/header'
+import { Footer } from '/workspaces/RevelationTaxRelief/components/footer'
 
-const _inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
   title: 'Revelation Tax Relief | IRS Tax Debt Resolution',
