@@ -1,14 +1,7 @@
-import { Metadata } from 'next'
+"use client"
 
-export const metadata: Metadata = {
-  title: 'Revelation Tax Relief | IRS Tax Debt Resolution',
-  description: 'Secure SaaS membership platform for IRS tax debt resolution.',
-}
+import RootLayout from "layout"
 
-export default function Home() {
-  return (
-    <main className="min-h-screen bg-background">
-      {/* Home page content goes here */}
-    </main>
-  )
+export default function SyntheticV0PageForDeployment() {
+  return <RootLayout />
 }
