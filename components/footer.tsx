@@ -1,32 +1,8 @@
 import Link from "next/link"
 import { Shield, Lock, ShieldCheck } from "lucide-react"
+import { FOOTER_NAVIGATION, COMPANY_INFO } from "@/lib/constants"
 
-const footerNavigation = {
-  solutions: [
-    { name: "IRS Tax Debt", href: "/features" },
-    { name: "Wage Garnishment", href: "/features" },
-    { name: "Tax Liens", href: "/features" },
-    { name: "Back Taxes", href: "/features" },
-  ],
-  company: [
-    { name: "About Us", href: "/about" },
-    { name: "How It Works", href: "/how-it-works" },
-    { name: "Pricing", href: "/pricing" },
-    { name: "Resources", href: "/resources" },
-  ],
-  support: [
-    { name: "Contact", href: "/contact" },
-    { name: "FAQs", href: "/resources" },
-    { name: "Member Login", href: "/login" },
-    { name: "Phone", href: "tel:(949) 993-7311" },
-    { name: "Email", href: "mailto:charles@revelationtaxrelief.com" },
-  ],
-  legal: [
-    { name: "Privacy Policy", href: "/privacy" },
-    { name: "Terms of Service", href: "/terms" },
-    { name: "Refund Policy", href: "/refund" },
-  ],
-}
+const footerNavigation = FOOTER_NAVIGATION
 
 export function Footer() {
   return (
