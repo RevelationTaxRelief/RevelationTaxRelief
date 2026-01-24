@@ -4,7 +4,15 @@ import Link from "next/link"
 import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Shield } from "lucide-react"
-import { MAIN_NAVIGATION, CONTACT_LINKS, COMPANY_INFO } from "@/lib/constants"
+
+const navigation = [
+  { name: "Features", href: "/features" },
+  { name: "Pricing", href: "/pricing" },
+  { name: "How It Works", href: "/how-it-works" },
+  { name: "Resources", href: "/resources" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "/contact" },
+]
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -37,7 +45,7 @@ export function Header() {
         </div>
         
         <div className="hidden lg:flex lg:gap-x-8">
-          {MAIN_NAVIGATION.map((item) => (
+          {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
@@ -62,7 +70,7 @@ export function Header() {
       {mobileMenuOpen && (
         <div className="lg:hidden">
           <div className="space-y-1 px-6 pb-6 pt-2">
-            {MAIN_NAVIGATION.map((item) => (
+            {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}

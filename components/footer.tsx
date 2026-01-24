@@ -1,8 +1,30 @@
 import Link from "next/link"
 import { Shield, Lock, ShieldCheck } from "lucide-react"
-import { FOOTER_NAVIGATION, COMPANY_INFO } from "@/lib/constants"
 
-const footerNavigation = FOOTER_NAVIGATION
+const footerNavigation = {
+  solutions: [
+    { name: "IRS Tax Debt", href: "/features" },
+    { name: "Wage Garnishment", href: "/features" },
+    { name: "Tax Liens", href: "/features" },
+    { name: "Back Taxes", href: "/features" },
+  ],
+  company: [
+    { name: "About Us", href: "/about" },
+    { name: "How It Works", href: "/how-it-works" },
+    { name: "Pricing", href: "/pricing" },
+    { name: "Resources", href: "/resources" },
+  ],
+  support: [
+    { name: "Contact", href: "/contact" },
+    { name: "FAQs", href: "/resources" },
+    { name: "Member Login", href: "/login" },
+  ],
+  legal: [
+    { name: "Privacy Policy", href: "/privacy" },
+    { name: "Terms of Service", href: "/terms" },
+    { name: "Refund Policy", href: "/refund" },
+  ],
+}
 
 export function Footer() {
   return (
@@ -105,7 +127,7 @@ export function Footer() {
         <div className="mt-12 border-t border-border pt-8">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-xs text-muted-foreground">
-              &copy; 2025–2026 Revelation Tax Relief | Los Angeles, CA | <a href="tel:(949) 993-7311" className="hover:text-foreground transition-colors">(949) 993-7311</a> | <a href="mailto:charles@revelationtaxrelief.com" className="hover:text-foreground transition-colors">charles@revelationtaxrelief.com</a>
+              &copy; 2025–2026 Revelation Tax Relief | Los Angeles, CA
             </p>
             <div className="flex gap-6">
               <Link href="/privacy" className="text-xs text-muted-foreground hover:text-foreground transition-colors">
