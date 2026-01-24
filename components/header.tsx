@@ -2,7 +2,7 @@
 
 import Link from "next/link"
 import { useState } from "react"
-import { Button } from "/workspaces/RevelationTaxRelief/components/ui/button"
+import { Button } from "@/components/ui/button"
 import { Menu, X, Shield } from "lucide-react"
 
 const navigation = [

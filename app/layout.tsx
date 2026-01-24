@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-import { Header } from '/workspaces/RevelationTaxRelief/components/header'
-import { Footer } from '/workspaces/RevelationTaxRelief/components/footer'
+import { Header } from '@/components/header'
+import { Footer } from '@/components/footer'
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
