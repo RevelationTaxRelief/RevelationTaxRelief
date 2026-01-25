@@ -163,12 +163,12 @@ export default function FeaturesPage() {
               {
                 title: "Back Taxes Resolution",
                 description: "Resolve unpaid taxes from previous years.",
-                solutions: ["Consolidated strategy", "Payment plans", "Penalty reduction", "Clean slate"],
+                solutions: ["Consolidated strategy", "Payment plans", "Professional guidance", "Clean slate"],
               },
               {
                 title: "Offer in Compromise",
-                description: "Settle your debt for less than the full amount owed.",
-                solutions: ["Debt reduction", "Negotiation support", "Expert preparation", "IRS navigation"],
+                description: "Explore settlement options with the IRS.",
+                solutions: ["Settlement exploration", "Negotiation support", "Expert preparation", "IRS navigation"],
               },
               {
                 title: "Payment Plans",
@@ -220,7 +220,7 @@ export default function FeaturesPage() {
                 <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">Solution</th>
                 <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">Best For</th>
                 <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">Timeline</th>
-                <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">Savings</th>
+                <th className="px-6 py-4 text-left text-sm font-semibold text-foreground">Process Details</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-border">
@@ -229,38 +229,38 @@ export default function FeaturesPage() {
                   solution: "Payment Plan",
                   bestFor: "Stable income, structured debt",
                   timeline: "30-60 days",
-                  savings: "Penalty reduction",
+                  savings: "Structured negotiation",
                 },
                 {
                   solution: "Offer in Compromise",
                   bestFor: "Significant hardship, large debt",
                   timeline: "60-120 days",
-                  savings: "Up to 70%+ reduction",
+                  savings: "Settlement negotiation",
                 },
                 {
                   solution: "Currently Not Collectible",
                   bestFor: "Financial hardship, short-term relief",
                   timeline: "Immediate",
-                  savings: "Payment pause",
+                  savings: "Temporary protection",
                 },
                 {
                   solution: "Wage Garnishment Release",
                   bestFor: "Active garnishment situation",
                   timeline: "7-14 days",
-                  savings: "Full paycheck recovery",
+                  savings: "Professional petition",
                 },
                 {
                   solution: "Tax Lien Removal",
                   bestFor: "Credit improvement, asset protection",
                   timeline: "30-90 days",
-                  savings: "Credit score improvement",
+                  savings: "Documentation support",
                 },
               ].map((row) => (
                 <tr key={row.solution} className="hover:bg-secondary/50 transition-colors">
                   <td className="px-6 py-4 text-sm font-medium text-foreground">{row.solution}</td>
                   <td className="px-6 py-4 text-sm text-muted-foreground">{row.bestFor}</td>
                   <td className="px-6 py-4 text-sm text-muted-foreground">{row.timeline}</td>
-                  <td className="px-6 py-4 text-sm text-primary font-medium">{row.savings}</td>
+                  <td className="px-6 py-4 text-sm text-muted-foreground">{row.savings}</td>
                 </tr>
               ))}
             </tbody>

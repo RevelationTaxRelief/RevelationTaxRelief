@@ -136,12 +136,12 @@ export default function HowItWorksPage() {
               {
                 title: "IRS Payment Plans",
                 description: "Spread your tax payments over time with manageable monthly installments.",
-                benefits: ["Flexible terms", "Low interest", "Easy setup", "Penalty reduction"],
+                benefits: ["Flexible terms", "Low interest", "Professional negotiation", "Easy setup"],
               },
               {
                 title: "Offer in Compromise",
-                description: "Settle your tax debt for less than the full amount owed.",
-                benefits: ["Significant savings", "Fresh start", "Expert negotiation", "Fast resolution"],
+                description: "Explore settlement options for your tax debt situation.",
+                benefits: ["Potential relief", "Professional guidance", "Expert negotiation", "Clear process"],
               },
               {
                 title: "Currently Not Collectible",
@@ -248,8 +248,8 @@ export default function HowItWorksPage() {
                 description: "Our team is available to answer questions and provide guidance.",
               },
               {
-                title: "Proven Success",
-                description: "3,800+ members have successfully resolved their tax debt.",
+                title: "Ethical Approach",
+                description: "We maintain integrity and transparency in all client interactions.",
               },
             ].map((item) => (
               <div

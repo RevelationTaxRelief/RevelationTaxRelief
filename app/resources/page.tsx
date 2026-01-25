@@ -44,7 +44,7 @@ export default function ResourcesPage() {
             {
               icon: FileText,
               title: "Case Studies",
-              description: "Real examples of successful resolutions",
+              description: "Real examples of how our solutions are applied",
               href: "#case-studies",
             },
           ].map((item) => {
@@ -293,10 +293,10 @@ export default function ResourcesPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8" id="case-studies">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold tracking-tight text-foreground">
-            Success Stories
+            Example Cases
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Real examples of how we've helped resolve tax debt
+            Scenarios showing how different solutions are applied
           </p>
         </div>
 
@@ -307,24 +307,24 @@ export default function ResourcesPage() {
               situation: "Wage Garnishment",
               debt: "$18,500",
               solution: "Payment Plan + Garnishment Release",
-              result: "Stopped garnishment, reduced to $129/month payment",
-              time: "Resolved in 14 days",
+              result: "Applied for garnishment release, structured payment plan negotiated",
+              time: "Processed in 14 days",
             },
             {
               name: "Sarah T.",
               situation: "Tax Lien",
               debt: "$32,000",
               solution: "Offer in Compromise",
-              result: "Settled debt for $9,600 (70% savings)",
-              time: "Resolved in 90 days",
+              result: "Offer submission prepared and presented to IRS for consideration",
+              time: "Processed in 90 days",
             },
             {
               name: "Michael R.",
               situation: "Back Taxes",
               debt: "$45,000",
               solution: "Payment Plan + Hardship Status",
-              result: "10-year payment plan at $415/month",
-              time: "Resolved in 60 days",
+              result: "Hardship status applied, payment arrangement terms negotiated",
+              time: "Processed in 60 days",
             },
           ].map((story) => (
             <div

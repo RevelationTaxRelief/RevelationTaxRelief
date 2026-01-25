@@ -77,8 +77,8 @@ export default function GetStartedPage() {
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
             {[
               { label: "Average Review Time", value: "5 minutes" },
-              { label: "Success Rate", value: "98%" },
-              { label: "Members Helped", value: "3,800+" },
+              { label: "Transparent Guidance", value: "100%" },
+              { label: "Professional Support", value: "24/7" },
               { label: "Years of Experience", value: "20+" },
             ].map((stat) => (
               <div key={stat.label} className="text-center">

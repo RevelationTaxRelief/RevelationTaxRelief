@@ -37,19 +37,19 @@ export default function AboutPage() {
             </div>
             <div className="flex flex-col gap-6">
               <div className="rounded-lg border border-border bg-secondary/30 p-6">
-                <p className="text-4xl font-bold text-primary mb-2">3,800+</p>
-                <p className="text-foreground font-semibold mb-1">Members Helped</p>
-                <p className="text-sm text-muted-foreground">Since 2025</p>
+                <p className="text-4xl font-bold text-primary mb-2">100%</p>
+                <p className="text-foreground font-semibold mb-1">Transparent Process</p>
+                <p className="text-sm text-muted-foreground">Full disclosure always</p>
               </div>
               <div className="rounded-lg border border-border bg-secondary/30 p-6">
-                <p className="text-4xl font-bold text-primary mb-2">$50M+</p>
-                <p className="text-foreground font-semibold mb-1">Tax Debt Resolved</p>
-                <p className="text-sm text-muted-foreground">Total relief provided</p>
+                <p className="text-4xl font-bold text-primary mb-2">20+</p>
+                <p className="text-foreground font-semibold mb-1">Years of Experience</p>
+                <p className="text-sm text-muted-foreground">Professional expertise</p>
               </div>
               <div className="rounded-lg border border-border bg-secondary/30 p-6">
-                <p className="text-4xl font-bold text-primary mb-2">98%</p>
-                <p className="text-foreground font-semibold mb-1">Success Rate</p>
-                <p className="text-sm text-muted-foreground">Case resolution</p>
+                <p className="text-4xl font-bold text-primary mb-2">24/7</p>
+                <p className="text-foreground font-semibold mb-1">Support Access</p>
+                <p className="text-sm text-muted-foreground">Always available</p>
               </div>
             </div>
           </div>
@@ -84,8 +84,8 @@ export default function AboutPage() {
               },
               {
                 icon: CheckCircle,
-                title: "Results",
-                description: "We're focused on achieving real, measurable outcomes for our members.",
+                title: "Accountability",
+                description: "We maintain ethical standards and transparent communication with every client.",
               },
             ].map((value) => {
               const Icon = value.icon
@@ -129,8 +129,8 @@ export default function AboutPage() {
               description: "No hidden fees. You know exactly what you're paying for, upfront.",
             },
             {
-              title: "Proven Success",
-              description: "98% success rate with thousands of satisfied members who've resolved their tax debt.",
+              title: "Ethical Standards",
+              description: "We maintain the highest ethical standards and transparent practices in all interactions.",
             },
             {
               title: "Personalized Solutions",
@@ -192,8 +192,8 @@ export default function AboutPage() {
                 description: "Defending spouses from joint liability for tax debt.",
               },
               {
-                title: "Penalty Reduction",
-                description: "Requesting abatement of penalties and interest charges.",
+                title: "Professional Guidance",
+                description: "Expert consultation on penalties, interest, and resolution options.",
               },
               {
                 title: "IRS Appeals",
@@ -221,19 +221,19 @@ export default function AboutPage() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           {[
             {
-              quote: "I was terrified about my IRS debt, but the team at Revelation made the process simple and stress-free. They communicated every step of the way.",
+              quote: "I appreciated their transparent approach and honest communication throughout the entire process.",
               author: "Jennifer K.",
-              role: "Member since 2025",
+              role: "Client since 2025",
             },
             {
-              quote: "Finally got my wage garnishment stopped! Within two weeks of starting the process, I had my full paycheck back. Incredible service.",
+              quote: "They took the time to explain all my options clearly without any pressure. That honesty meant a lot.",
               author: "David M.",
-              role: "Member since 2025",
+              role: "Client since 2025",
             },
             {
-              quote: "The transparent pricing and expert guidance made all the difference. I don't regret getting help from them one bit.",
+              quote: "The professional guidance and ethical approach made this much easier than I expected.",
               author: "Maria S.",
-              role: "Member since 2025",
+              role: "Client since 2025",
             },
           ].map((testimonial) => (
             <div
@@ -259,7 +259,7 @@ export default function AboutPage() {
             Join Our Community
           </h2>
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Be part of thousands of Americans who've successfully resolved their tax debt and regained financial peace.
+            Work with a team committed to transparency, ethics, and professional guidance in resolving your tax situation.
           </p>
           <Button asChild size="lg" className="gap-2">
             <Link href="/get-started">

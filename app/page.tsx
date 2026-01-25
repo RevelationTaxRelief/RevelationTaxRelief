@@ -14,7 +14,7 @@ export default function Home() {
             Resolve Your IRS Tax Debt Today
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Join 3,800+ Americans who've regained financial peace. Our secure platform provides professional tax debt resolution tools, expert guidance, and complete documentation support.
+            Our transparent platform provides professional tax debt resolution guidance, expert support, and complete documentation assistance. We operate with integrity and full transparency throughout the process.
           </p>
           <div className="mt-10 flex items-center justify-center gap-6">
             <Button asChild size="lg" className="gap-2">
@@ -59,7 +59,7 @@ export default function Home() {
             Everything You Need
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
-            Comprehensive tools designed for successful tax debt resolution
+            Comprehensive tools designed for transparent tax debt resolution
           </p>
         </div>
 

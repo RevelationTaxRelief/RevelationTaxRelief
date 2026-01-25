@@ -52,7 +52,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm font-medium text-primary">
-              Serving 3,800+ members since 2025
+              Committed to transparent, ethical tax relief guidance since 2025
             </p>
           </div>
           

@@ -195,7 +195,7 @@ export default function PricingPage() {
             },
             {
               question: "What if I'm not satisfied?",
-              answer: "We offer a 30-day money-back guarantee if you're not satisfied with our service. No questions asked.",
+              answer: "We're committed to transparent service. If you have concerns within 30 days of purchase, contact us to discuss your experience.",
             },
             {
               question: "Are there additional costs?",
@@ -223,13 +223,13 @@ export default function PricingPage() {
         <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8">
           <div className="text-center">
             <h2 className="text-2xl font-bold text-foreground mb-4">
-              Trusted by Thousands
+              Our Commitment to Transparency
             </h2>
             <div className="grid grid-cols-1 gap-8 sm:grid-cols-3 mt-12">
               {[
-                { stat: "3,800+", label: "Members Helped" },
-                { stat: "98%", label: "Success Rate" },
-                { stat: "$50M+", label: "Debt Resolved" },
+                { stat: "100%", label: "Transparent Pricing" },
+                { stat: "0", label: "Hidden Fees" },
+                { stat: "24/7", label: "Support Available" },
               ].map((item) => (
                 <div key={item.label} className="text-center">
                   <p className="text-3xl font-bold text-primary">{item.stat}</p>

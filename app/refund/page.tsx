@@ -20,38 +20,38 @@ export default function RefundPage() {
       <section className="mx-auto max-w-4xl px-6 pb-20 lg:px-8">
         <div className="space-y-8 text-muted-foreground">
           <div className="bg-primary/10 border border-primary/30 rounded-lg p-6 mb-8">
-            <h3 className="text-lg font-semibold text-primary mb-2">30-Day Money-Back Guarantee</h3>
+            <h3 className="text-lg font-semibold text-primary mb-2">30-Day Service Review Period</h3>
             <p>
-              We're confident you'll be satisfied with our service. If you're not, we'll refund your money within 30 days, no questions asked.
+              We're committed to transparent service delivery. If you're unsatisfied with our service within 30 days of purchase, please contact us to discuss your concerns.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Refund Eligibility</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">Service Review and Refund</h2>
             <p>
-              You may request a full refund of your service fees if you meet the following conditions:
+              If you're unsatisfied with our service quality, we encourage you to contact us within 30 days. We'll evaluate your concerns to determine if a refund is appropriate:
             </p>
             <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>Your refund request is made within 30 days of your initial purchase</li>
-              <li>You have not received resolution of your case through our service</li>
-              <li>You are requesting the refund in good faith</li>
+              <li>Your review request is made within 30 days of your initial purchase</li>
+              <li>You can document specific service quality concerns</li>
+              <li>You are requesting the review in good faith</li>
               <li>You have not violated our Terms of Service</li>
             </ul>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">How to Request a Refund</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">How to Request a Service Review</h2>
             <p>
-              To request a refund, please follow these steps:
+              If you're unsatisfied with our service, please contact us as soon as possible:
             </p>
             <ol className="list-decimal pl-6 space-y-2 mt-4">
-              <li>Contact our support team at refunds@revelationtaxrelief.com</li>
+              <li>Contact our support team at support@revelationtaxrelief.com</li>
               <li>Provide your account information and order number</li>
-              <li>Explain why you're requesting a refund</li>
-              <li>Our team will review and process your request within 5 business days</li>
+              <li>Explain your service concerns</li>
+              <li>Our team will review your concerns within 5 business days</li>
             </ol>
             <p className="mt-4">
-              Approved refunds will be processed within 7-10 business days to your original payment method.
+              If a refund is approved, it will be processed within 7-10 business days to your original payment method.
             </p>
           </div>
 
@@ -96,12 +96,12 @@ export default function RefundPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Satisfaction Guarantee</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">Our Service Commitment</h2>
             <p>
-              Your satisfaction is our priority. If you have any concerns about our service, please reach out to our team immediately. We may be able to address your concerns or provide a refund depending on the circumstances.
+              We are committed to providing professional, ethical, and transparent service. If you have any concerns about our service, please reach out to our team immediately so we can address them.
             </p>
             <p className="mt-4">
-              We stand behind our service and believe in our ability to help resolve your IRS tax debt.
+              We stand behind our service and maintain the highest standards of professional conduct.
             </p>
           </div>
 
@@ -132,24 +132,24 @@ export default function RefundPage() {
           
           {[
             {
-              q: "Can I get a refund if my case is still being processed?",
-              a: "Yes, if your request is within 30 days of purchase and you haven't received case resolution, you're eligible for our money-back guarantee.",
+              q: "Can I request a review if my case is still being processed?",
+              a: "Yes, if your request is within 30 days of purchase, you can request a service review to discuss any concerns you may have.",
             },
             {
-              q: "How long does it take to receive a refund?",
-              a: "Once approved, refunds are processed within 7-10 business days to your original payment method.",
+              q: "How long does it take to get a decision on my review request?",
+              a: "Once you contact us, our team will review your concerns within 5 business days and provide a response.",
             },
             {
               q: "Do I need to return any materials or documents?",
-              a: "No, you can keep all resources and materials you've received. We'll simply refund your service fees.",
+              a: "No, you can keep all resources and materials you've received. We'll address your service concerns directly.",
             },
             {
-              q: "What if I want a refund after 30 days?",
-              a: "Refunds are only available within 30 days of purchase. After 30 days, we can discuss alternative solutions or credit toward future services.",
+              q: "What if I want to request a review after 30 days?",
+              a: "Service reviews are available within 30 days of purchase. After 30 days, we can discuss alternative solutions or service improvements for future support.",
             },
             {
-              q: "Can I get a refund if the IRS denies my request?",
-              a: "Refunds are available based on our service performance, not IRS decisions. The IRS makes final determinations on relief requests independent of our services.",
+              q: "Will you provide a refund if the IRS denies my request?",
+              a: "We provide refunds based on our service quality, not IRS decisions. The IRS makes independent determinations on relief requests. Our refunds are contingent on service delivery issues, not case outcomes.",
             },
           ].map((item) => (
             <div key={item.q} className="rounded-lg border border-border bg-card p-6">
@@ -161,9 +161,9 @@ export default function RefundPage() {
 
         {/* Bottom CTA */}
         <div className="mt-12 p-6 rounded-lg border border-border bg-primary/5 text-center">
-          <h3 className="text-lg font-semibold text-foreground mb-3">Risk-Free Tax Relief</h3>
+          <h3 className="text-lg font-semibold text-foreground mb-3">Professional Tax Relief Service</h3>
           <p className="text-muted-foreground mb-6">
-            Try our service with complete confidence. 30-day money-back guarantee with no questions asked.
+            Work with us for professional, ethical guidance on your tax situation with a commitment to transparent service.
           </p>
           <Button asChild>
             <Link href="/get-started">Start Free Assessment</Link>
