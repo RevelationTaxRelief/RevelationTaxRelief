@@ -133,7 +133,8 @@ export default function AboutPage() {
             },
             {
               title: "Case-by-Case Service",
-              description: "Handling each engagement individually based on specific facts, documentation, and regulatory requirements
+              description: "Handling each engagement individually based on specific facts, documentation, and regulatory requirements",
+            },
             <div
               key={item.title}
               className="rounded-lg border border-border bg-card p-8 hover:border-primary/50 transition-colors"
