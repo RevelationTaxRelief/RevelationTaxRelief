@@ -12,7 +12,7 @@ export default function TermsPage() {
           Terms of Service
         </h1>
         <p className="text-muted-foreground">
-          Last updated: January 24, 2025
+          Last updated: January 2026
         </p>
       </section>
 
