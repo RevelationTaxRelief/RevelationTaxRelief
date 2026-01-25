@@ -111,9 +111,9 @@ export default function TermsPage() {
             </p>
             <div className="mt-4 p-4 bg-secondary/30 rounded-lg">
               <p className="font-medium text-foreground">Revelation Tax Relief</p>
-              <p>Email: legal@revelationtaxrelief.com</p>
-              <p>Phone: 1-800-TAX-HELP</p>
-              <p>Address: 100 Financial Plaza, New York, NY 10001</p>
+              <p>Email: charles@revelationtaxrelief.com</p>
+              <p>Phone: (949) 993-7311</p>
+              <p>Address: California, USA</p>
             </div>
           </div>
         </div>

@@ -45,7 +45,7 @@ export default function RefundPage() {
               If you're unsatisfied with our service, please contact us as soon as possible:
             </p>
             <ol className="list-decimal pl-6 space-y-2 mt-4">
-              <li>Contact our support team at support@revelationtaxrelief.com</li>
+                  <li>Contact our support team at charles@revelationtaxrelief.com</li>
               <li>Provide your account information and order number</li>
               <li>Explain your service concerns</li>
               <li>Our team will review your concerns within 5 business days</li>
@@ -112,8 +112,8 @@ export default function RefundPage() {
             </p>
             <div className="mt-4 p-4 bg-secondary/30 rounded-lg">
               <p className="font-medium text-foreground">Customer Support</p>
-              <p>Email: support@revelationtaxrelief.com</p>
-              <p>Phone: 1-800-TAX-HELP</p>
+              <p>Email: charles@revelationtaxrelief.com</p>
+              <p>Phone: (949) 993-7311</p>
               <p>Hours: Monday-Friday 9AM-6PM EST, Saturday 10AM-4PM EST</p>
             </div>
           </div>

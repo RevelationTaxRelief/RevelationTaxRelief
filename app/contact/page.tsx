@@ -26,20 +26,20 @@ export default function ContactPage() {
             {
               icon: Mail,
               title: "Email",
-              content: "support@revelationtaxrelief.com",
+              content: "charles@revelationtaxrelief.com",
               subtext: "Response within 24 hours",
             },
             {
               icon: Phone,
               title: "Phone",
-              content: "1-800-TAX-HELP",
+              content: "(949) 993-7311",
               subtext: "Available 9AM-9PM EST",
             },
             {
               icon: MapPin,
               title: "Address",
-              content: "100 Financial Plaza",
-              subtext: "New York, NY 10001",
+              content: "California, USA",
+              subtext: "",
             },
             {
               icon: Clock,
