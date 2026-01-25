@@ -9,7 +9,7 @@ export default function PrivacyPage() {
       {/* Header Section */}
       <section className="mx-auto max-w-4xl px-6 py-20 lg:px-8 lg:py-32">
         <h1 className="text-4xl font-bold tracking-tight text-foreground mb-4">
-          Privacy Policy
+          [ PRIVACY POLICY ]
         </h1>
         <p className="text-muted-foreground">
           Last updated: January 2026
@@ -29,7 +29,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Scope of This Policy</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ SCOPE OF THIS POLICY ]</h2>
             <p>
               This Privacy Policy applies to information collected through:
             </p>
@@ -45,23 +45,23 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Information We Collect</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ INFORMATION WE COLLECT ]</h2>
             <p>
               We may collect information that is voluntarily provided or lawfully obtained in connection with inquiries or professional services. This may include:
             </p>
-            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">Personal and Contact Information</h3>
+            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">[ PERSONAL AND CONTACT INFORMATION ]</h3>
             <ul className="list-disc pl-6 space-y-2">
               <li>Name, mailing address, email address, and telephone number</li>
               <li>Business name and business contact details (if applicable)</li>
             </ul>
-            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">Case-Related and Administrative Information</h3>
+            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">[ CASE-RELATED AND ADMINISTRATIVE INFORMATION ]</h3>
             <ul className="list-disc pl-6 space-y-2">
               <li>Tax-related documentation and correspondence</li>
               <li>Financial summaries and compliance information</li>
               <li>Filing history and procedural records</li>
               <li>Authorization forms and disclosures</li>
             </ul>
-            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">Technical and Website Information</h3>
+            <h3 className="text-lg font-semibold text-foreground mt-4 mb-2">[ TECHNICAL AND WEBSITE INFORMATION ]</h3>
             <ul className="list-disc pl-6 space-y-2">
               <li>Internet Protocol (IP) address</li>
               <li>Browser type and device information</li>
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">How Information Is Used</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ HOW INFORMATION IS USED ]</h2>
             <p>
               Information may be used for the following purposes:
             </p>
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Lawful Basis for Processing</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ LAWFUL BASIS FOR PROCESSING ]</h2>
             <p>
               Information is processed based on one or more of the following grounds, as applicable:
             </p>
@@ -105,7 +105,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Information Sharing and Disclosure</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ INFORMATION SHARING AND DISCLOSURE ]</h2>
             <p>
               We do not sell or rent personal information.
             </p>
@@ -124,7 +124,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Data Security and Safeguards</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ DATA SECURITY AND SAFEGUARDS ]</h2>
             <p>
               We implement administrative, technical, and physical safeguards designed to protect information from unauthorized access, disclosure, alteration, or misuse. These measures may include:
             </p>
@@ -140,7 +140,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Data Retention</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ DATA RETENTION ]</h2>
             <p>
               Information is retained only for as long as necessary to fulfill the purposes outlined in this policy, comply with regulatory or legal obligations, and support internal documentation and recordkeeping standards.
             </p>
@@ -150,7 +150,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Your Rights and Choices</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ YOUR RIGHTS AND CHOICES ]</h2>
             <p>
               Depending on your jurisdiction, you may have certain rights regarding your personal information, which may include:
             </p>
@@ -166,7 +166,7 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Cookies and Website Technologies</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ COOKIES AND WEBSITE TECHNOLOGIES ]</h2>
             <p>
               Our website may use cookies or similar technologies to support functionality, security, and general analytics. These tools help us understand how visitors interact with our website and improve user experience.
             </p>
@@ -176,21 +176,21 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Third-Party Links</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ THIRD-PARTY LINKS ]</h2>
             <p>
               Our website may contain links to third-party websites or services. We are not responsible for the privacy practices, content, or security of external platforms. Users are encouraged to review the privacy policies of any third-party sites they visit.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Children's Privacy</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ CHILDREN'S PRIVACY ]</h2>
             <p>
               Our services and website are not directed to individuals under the age of 18. We do not knowingly collect personal information from minors.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Policy Updates</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ POLICY UPDATES ]</h2>
             <p>
               We may update this Privacy Policy periodically to reflect changes in legal requirements, operational practices, or service structure. Updates will be posted on this page with a revised effective date.
             </p>
@@ -200,21 +200,21 @@ export default function PrivacyPage() {
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Independence Disclosure</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ INDEPENDENCE DISCLOSURE ]</h2>
             <p>
               Revelation Tax Relief is an independent tax consultation and resolution support firm. We are not affiliated with, endorsed by, or acting on behalf of any government agency.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Contact Information</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ CONTACT INFORMATION ]</h2>
             <p>
               For questions regarding this Privacy Policy or our information handling practices, you may contact us through the communication channels provided on our website.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Acknowledgment</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ ACKNOWLEDGMENT ]</h2>
             <p>
               By using our website or engaging our services, you acknowledge that you have read and understood this Privacy Policy and agree to the collection and use of information as described herein.
             </p>
@@ -223,7 +223,7 @@ export default function PrivacyPage() {
 
         {/* Bottom CTA */}
         <div className="mt-12 p-6 rounded-lg border border-border bg-primary/5 text-center">
-          <h3 className="text-lg font-semibold text-foreground mb-3">Ready to Protect Your Data?</h3>
+          <h3 className="text-lg font-semibold text-foreground mb-3">[ READY TO PROTECT YOUR DATA? ]</h3>
           <p className="text-muted-foreground mb-6">
             Our secure platform protects your sensitive financial information with military-grade encryption.
           </p>
