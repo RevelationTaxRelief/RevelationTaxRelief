@@ -76,53 +76,114 @@ export default function ResourcesPage() {
           <div className="space-y-6">
             {[
               {
-                category: "General",
+                category: "Services & Scope",
                 questions: [
                   {
-                    q: "What is IRS tax debt?",
-                    a: "IRS tax debt is the amount of unpaid federal income taxes, penalties, and interest owed to the Internal Revenue Service.",
+                    q: "What services does Revelation Tax Relief provide?",
+                    a: "Revelation Tax Relief provides professional tax consultation and resolution support services. Our work focuses on reviewing financial and compliance information, evaluating available administrative options under applicable tax authority guidelines, preparing documentation, and assisting with structured communication and case coordination. Services are tailored to the specific facts, records, and regulatory requirements of each individual or business engagement.",
                   },
                   {
-                    q: "How much tax debt do I need before seeking help?",
-                    a: "There's no minimum. Whether you owe $1,000 or $100,000+, we can help you develop a resolution strategy.",
+                    q: "Are your services standardized or customized?",
+                    a: "All services are customized. Each engagement is evaluated individually based on documentation, financial information, compliance history, and regulatory considerations. There is no universal approach that applies to every case. Service scope is defined in writing and limited to what is appropriate for the specific circumstances presented.",
                   },
                   {
-                    q: "How long does it take to resolve tax debt?",
-                    a: "The timeline varies based on your situation and chosen solution. Most cases are resolved within 30-120 days.",
+                    q: "How is service scope defined?",
+                    a: "Service scope is defined in a written agreement that outlines the specific tasks and responsibilities associated with each engagement. Only the services listed in the agreement are included. Additional services, if needed, require separate authorization.",
+                  },
+                  {
+                    q: "What is required from clients to begin working with your firm?",
+                    a: "Clients are required to provide accurate, complete, and truthful information, including financial records, tax filings, and relevant correspondence from tax authorities. This information is essential for proper evaluation and preparation. Incomplete or inaccurate information may limit available administrative options or delay case progression.",
+                  },
+                  {
+                    q: "Do you work with both individuals and businesses?",
+                    a: "Yes. Our services are available to both individual taxpayers and business entities. Each engagement is evaluated independently and handled according to the specific regulatory and documentation requirements that apply.",
+                  },
+                  {
+                    q: "Do you provide legal or accounting advice?",
+                    a: "Revelation Tax Relief provides tax consultation and resolution support services. We do not provide legal advice unless explicitly stated in a written agreement. When necessary, clients may be advised to consult with licensed legal or accounting professionals for matters that fall outside the scope of our services.",
+                  },
+                  {
+                    q: "Are all clients accepted for service?",
+                    a: "Not all cases are suitable for engagement. Acceptance is based on an initial review of available documentation, compliance status, and the firm's ability to provide services within regulatory and ethical guidelines. We reserve the right to decline engagements that fall outside our service model.",
                   },
                 ],
               },
               {
-                category: "Tax Relief Solutions",
+                category: "Process & Outcomes",
                 questions: [
                   {
-                    q: "What is an Offer in Compromise?",
-                    a: "An Offer in Compromise is an IRS program that allows you to settle your tax debt for less than the full amount owed.",
+                    q: "Does Revelation Tax Relief guarantee any specific outcome?",
+                    a: "No. Revelation Tax Relief does not guarantee results, acceptance of applications, timing, or determinations by any tax authority. All outcomes are governed by applicable laws, internal agency policies, and discretionary review by federal or state agencies. Our role is to provide professional support, preparation, and representation within established regulatory frameworks.",
                   },
                   {
-                    q: "What is a payment plan?",
-                    a: "A payment plan allows you to pay your IRS debt over time with fixed monthly payments instead of in a lump sum.",
+                    q: "How does the consultation process work?",
+                    a: "The consultation process begins with an initial information review to understand the client's tax profile, compliance status, and documentation history. This may include transcript review, financial disclosures, and verification of filing status. Based on this information, we identify potential administrative pathways that may be available under current guidelines. Recommendations are made only after a documented assessment is completed.",
                   },
                   {
-                    q: "What is Currently Not Collectible?",
-                    a: "This status temporarily stops collection efforts due to financial hardship, giving you time to improve your situation.",
+                    q: "How long does the process typically take?",
+                    a: "Timelines vary significantly based on the complexity of the case, responsiveness of agencies, completeness of documentation, and regulatory processing standards. Because determinations are made by tax authorities, time-frames cannot be predicted or guaranteed.",
+                  },
+                  {
+                    q: "What happens if a client's situation changes during the engagement?",
+                    a: "If a client's financial, compliance, or documentation status changes, the case may need to be re-evaluated. Updated information can affect eligibility for certain administrative options and may require modifications to the service scope or strategy.",
+                  },
+                  {
+                    q: "What role does the client play throughout the process?",
+                    a: "Clients remain actively involved throughout the engagement. They are responsible for providing timely information, reviewing documentation, and approving submissions. Informed client participation is essential to maintaining accuracy and compliance.",
+                  },
+                  {
+                    q: "What should clients understand before engaging your services?",
+                    a: "Clients should understand that tax resolution is an administrative and regulatory process governed by law and agency discretion. Our firm provides professional support, preparation, and coordination, but final determinations are always made by the applicable tax authority.",
                   },
                 ],
               },
               {
-                category: "Security & Privacy",
+                category: "Communication & Compliance",
                 questions: [
                   {
-                    q: "Is my information secure?",
-                    a: "Yes, we use 256-bit SSL encryption and follow HIPAA-level security standards to protect all your data.",
+                    q: "How do you communicate with tax authorities?",
+                    a: "When authorized, we assist with structured communication and case coordination in accordance with applicable agency procedures. This may include submitting documentation, responding to requests for information, and monitoring administrative status. All communications are documented and maintained as part of the case record.",
                   },
                   {
-                    q: "Will you share my information?",
-                    a: "No, we never sell or share your personal information. Your privacy is always protected.",
+                    q: "What if a tax authority requests additional information?",
+                    a: "If additional information is requested, we coordinate with the client to gather and prepare the necessary documentation. Responses are submitted in accordance with agency procedures and within applicable time-frames when possible.",
                   },
                   {
-                    q: "How is my data stored?",
-                    a: "All data is encrypted and stored on secure, HIPAA-compliant servers with automatic backups.",
+                    q: "How do you document your work?",
+                    a: "All services, communications, and submissions are documented and retained as part of the case record. This ensures transparency, continuity, and internal quality control throughout the engagement lifecycle.",
+                  },
+                  {
+                    q: "How do you ensure compliance with regulations and ethical standards?",
+                    a: "Our firm operates under established federal and state guidelines, internal compliance procedures, and ethical marketing standards. We maintain documentation of service scope, communications, and client authorizations to ensure transparency and accountability throughout the engagement.",
+                  },
+                  {
+                    q: "How do you protect client information?",
+                    a: "We implement administrative, technical, and procedural safeguards designed to protect sensitive information from unauthorized access, disclosure, or misuse. Access to client records is limited to authorized personnel and service providers directly involved in case preparation and communication. Information is only shared when necessary to fulfill documented service obligations.",
+                  },
+                  {
+                    q: "How do you maintain service quality and consistency?",
+                    a: "We utilize standardized internal procedures, documentation protocols, and periodic internal reviews to maintain consistent service quality across engagements. This approach supports regulatory compliance and operational reliability.",
+                  },
+                ],
+              },
+              {
+                category: "Getting Started & Support",
+                questions: [
+                  {
+                    q: "How can prospective clients get started?",
+                    a: "Prospective clients may request an initial consultation to discuss their situation and provide preliminary information for review. Engagement is only established after a written agreement defining scope and responsibilities is executed.",
+                  },
+                  {
+                    q: "How do you handle service disputes or concerns?",
+                    a: "Clients are encouraged to contact our firm directly with any questions or concerns regarding services. We maintain internal review processes to address issues related to scope, documentation, or service delivery in a professional and structured manner.",
+                  },
+                  {
+                    q: "Where can clients find your policies and disclosures?",
+                    a: "Our Terms of Service and Privacy Policy are available on our website and outline our service framework, client responsibilities, data protection practices, and operational standards.",
+                  },
+                  {
+                    q: "Is your firm affiliated with any government agency?",
+                    a: "No. Revelation Tax Relief is an independent tax consultation and resolution support firm. We are not affiliated with, endorsed by, or acting on behalf of any government agency.",
                   },
                 ],
               },
