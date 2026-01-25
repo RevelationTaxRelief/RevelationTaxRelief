@@ -9,161 +9,172 @@ export default function RefundPage() {
       {/* Header Section */}
       <section className="mx-auto max-w-4xl px-6 py-20 lg:px-8 lg:py-32">
         <h1 className="text-4xl font-bold tracking-tight text-foreground mb-4">
-          Refund Policy
+          [ REFUND POLICY ]
         </h1>
         <p className="text-muted-foreground">
-          Last updated: January 24, 2025
+          Last updated: January 2026
         </p>
       </section>
 
       {/* Content Section */}
       <section className="mx-auto max-w-4xl px-6 pb-20 lg:px-8">
-        <div className="space-y-8 text-muted-foreground">
-          <div className="bg-primary/10 border border-primary/30 rounded-lg p-6 mb-8">
-            <h3 className="text-lg font-semibold text-primary mb-2">30-Day Service Review Period</h3>
+        <div className="space-y-8 text-muted-foreground prose prose-invert max-w-none">
+          <div>
             <p>
-              We're committed to transparent service delivery. If you're unsatisfied with our service within 30 days of purchase, please contact us to discuss your concerns.
+              This Refund Policy governs requests for refunds in connection with services provided by Revelation Tax Relief ("Company," "we," "us," or "our"). This policy is intended to establish a clear, fair, and professionally administered framework for handling service-related concerns while protecting the integrity of our processes and compliance obligations.
+            </p>
+            <p>
+              By engaging our services, you ("Client," "you," or "your") acknowledge that you have read, understood, and agree to the terms outlined below.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Service Review and Refund</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ SERVICE-BASED ENGAGEMENT MODEL ]</h2>
             <p>
-              If you're unsatisfied with our service quality, we encourage you to contact us within 30 days. We'll evaluate your concerns to determine if a refund is appropriate:
+              Revelation Tax Relief provides professional tax consultation and resolution support services that are customized on a case-by-case basis. Services involve administrative preparation, documentation review, procedural coordination, and authorized communication.
             </p>
-            <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>Your review request is made within 30 days of your initial purchase</li>
-              <li>You can document specific service quality concerns</li>
-              <li>You are requesting the review in good faith</li>
-              <li>You have not violated our Terms of Service</li>
+            <p>
+              Because services are tailored to each engagement and may begin immediately upon authorization, refund eligibility is evaluated individually and is not automatic or guaranteed.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ NO STANDARDIZED REFUND ENTITLEMENT ]</h2>
+            <p>
+              Revelation Tax Relief does not maintain a universal or standardized refund schedule. Each request is reviewed based on the specific scope of services authorized, work performed, documentation prepared, and procedural actions taken.
+            </p>
+            <p>
+              Refund determinations, if any, are made solely at the Company's discretion and in accordance with the terms of the executed service agreement and applicable laws.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ ELIGIBILITY FOR REVIEW ]</h2>
+            <p>
+              A refund request may be considered only if:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>The request is submitted in writing through the Company's designated communication channels</li>
+              <li>The request clearly identifies the engagement and the nature of the concern</li>
+              <li>The request is submitted within a reasonable period following the conclusion or termination of the engagement</li>
             </ul>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">How to Request a Service Review</h2>
-            <p>
-              If you're unsatisfied with our service, please contact us as soon as possible:
-            </p>
-            <ol className="list-decimal pl-6 space-y-2 mt-4">
-                  <li>Contact our support team at charles@revelationtaxrelief.com</li>
-              <li>Provide your account information and order number</li>
-              <li>Explain your service concerns</li>
-              <li>Our team will review your concerns within 5 business days</li>
-            </ol>
             <p className="mt-4">
-              If a refund is approved, it will be processed within 7-10 business days to your original payment method.
+              Submission of a request does not imply acceptance or approval.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">What's Not Refundable</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ NON-REFUNDABLE SERVICES ]</h2>
             <p>
-              The following are not eligible for refunds:
+              Certain services may be considered non-refundable, including but not limited to:
             </p>
-            <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>IRS filing fees and government charges</li>
-              <li>Third-party service provider costs</li>
-              <li>Purchases made more than 30 days ago</li>
-              <li>Refund requests after case resolution has been achieved</li>
-              <li>Services for accounts in violation of our Terms of Service</li>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Administrative preparation and documentation services</li>
+              <li>Case evaluation and information review</li>
+              <li>Authorized communication and coordination with third parties or tax authorities</li>
+              <li>Work performed in reliance on client authorization or submitted materials</li>
             </ul>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Partial Refunds</h2>
-            <p>
-              In certain circumstances, we may offer a partial refund if you've received partial services or have a legitimate concern about your experience. Each situation is evaluated individually.
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Payment Plan Refunds</h2>
-            <p>
-              If you're on a payment plan and request a refund:
-            </p>
-            <ul className="list-disc pl-6 space-y-2 mt-4">
-              <li>Refunds are calculated based on services received</li>
-              <li>Future payments may be canceled upon approval</li>
-              <li>Previously paid amounts within the 30-day window will be refunded</li>
-            </ul>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Free Assessment Refund</h2>
-            <p>
-              The initial free assessment has no refund requirements, as it's complimentary. If you proceed to paid services, the 30-day refund period begins from the date of your paid service purchase.
-            </p>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Our Service Commitment</h2>
-            <p>
-              We are committed to providing professional, ethical, and transparent service. If you have any concerns about our service, please reach out to our team immediately so we can address them.
-            </p>
             <p className="mt-4">
-              We stand behind our service and maintain the highest standards of professional conduct.
+              These services involve time, professional resources, and procedural actions that cannot be reversed once performed.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Dispute Resolution</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ CLIENT RESPONSIBILITIES AND ACCURACY ]</h2>
             <p>
-              If there's a dispute regarding a refund request, please contact our support team:
+              Clients are responsible for providing accurate, complete, and timely information. Refund requests based on errors, omissions, or misrepresentations in client-supplied information may be denied.
             </p>
-            <div className="mt-4 p-4 bg-secondary/30 rounded-lg">
-              <p className="font-medium text-foreground">Customer Support</p>
-              <p>Email: charles@revelationtaxrelief.com</p>
-              <p>Phone: (949) 993-7311</p>
-              <p>Hours: Monday-Friday 9AM-6PM EST, Saturday 10AM-4PM EST</p>
-            </div>
+            <p>
+              The Company is not responsible for adverse outcomes, delays, or limitations resulting from incomplete, inaccurate, or outdated information provided by the client.
+            </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-bold text-foreground mb-4">Policy Changes</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ REVIEW AND DETERMINATION PROCESS ]</h2>
             <p>
-              We reserve the right to modify this refund policy at any time. Changes will be posted on this page and will take effect immediately. Your continued use of our service after policy changes constitutes your acceptance of the new policy.
+              All refund requests are subject to an internal review process, which may include:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Verification of the service scope and authorization</li>
+              <li>Review of documentation prepared and actions taken</li>
+              <li>Assessment of procedural steps completed</li>
+              <li>Evaluation of compliance with the executed agreement and this policy</li>
+            </ul>
+            <p className="mt-4">
+              The Company may request additional information to complete the review.
             </p>
           </div>
-        </div>
 
-        {/* FAQ Section */}
-        <div className="mt-12 space-y-6">
-          <h2 className="text-2xl font-bold text-foreground">Refund FAQ</h2>
-          
-          {[
-            {
-              q: "Can I request a review if my case is still being processed?",
-              a: "Yes, if your request is within 30 days of purchase, you can request a service review to discuss any concerns you may have.",
-            },
-            {
-              q: "How long does it take to get a decision on my review request?",
-              a: "Once you contact us, our team will review your concerns within 5 business days and provide a response.",
-            },
-            {
-              q: "Do I need to return any materials or documents?",
-              a: "No, you can keep all resources and materials you've received. We'll address your service concerns directly.",
-            },
-            {
-              q: "What if I want to request a review after 30 days?",
-              a: "Service reviews are available within 30 days of purchase. After 30 days, we can discuss alternative solutions or service improvements for future support.",
-            },
-            {
-              q: "Will you provide a refund if the IRS denies my request?",
-              a: "We provide refunds based on our service quality, not IRS decisions. The IRS makes independent determinations on relief requests. Our refunds are contingent on service delivery issues, not case outcomes.",
-            },
-          ].map((item) => (
-            <div key={item.q} className="rounded-lg border border-border bg-card p-6">
-              <h3 className="font-semibold text-foreground mb-3">{item.q}</h3>
-              <p className="text-muted-foreground text-sm">{item.a}</p>
-            </div>
-          ))}
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ FRAUD AND CHARGEBACK PREVENTION ]</h2>
+            <p>
+              To protect against unauthorized disputes and fraudulent activity:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Clients agree to submit concerns directly to the Company before initiating any external dispute or chargeback</li>
+              <li>Unauthorized chargebacks or misrepresentations may be considered a breach of the Terms of Service</li>
+              <li>The Company reserves the right to provide documentation, service records, and authorization evidence to financial institutions or payment processors in response to disputes</li>
+            </ul>
+            <p className="mt-4">
+              The Company may decline refund consideration where there is evidence of misuse, misrepresentation, or unauthorized payment activity.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ PAYMENT PROVIDER COMPLIANCE ]</h2>
+            <p>
+              Refunds, if approved, are processed in accordance with the rules and requirements of the applicable payment provider or financial institution. Processing timelines and methods are subject to third-party procedures beyond the Company's control.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ TERMINATION OF SERVICES ]</h2>
+            <p>
+              Termination of an engagement does not automatically entitle a client to a refund. Refund consideration, if any, is based on the scope of services authorized and the work performed up to the date of termination.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ LIMITATION OF OBLIGATION ]</h2>
+            <p>
+              Nothing in this policy obligates Revelation Tax Relief to issue a refund. All determinations are discretionary and based on documented review and compliance with applicable agreements and regulations.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ POLICY UPDATES ]</h2>
+            <p>
+              This Refund Policy may be updated periodically to reflect changes in legal requirements, regulatory standards, or internal procedures. The most current version will be posted on our website with a revised effective date.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ INDEPENDENCE DISCLOSURE ]</h2>
+            <p>
+              Revelation Tax Relief is an independent tax consultation and resolution support firm. We are not affiliated with, endorsed by, or acting on behalf of any government agency. All determinations and administrative outcomes are made solely by the applicable tax authority.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ CONTACT INFORMATION ]</h2>
+            <p>
+              Refund requests and policy-related inquiries must be submitted using the communication channels provided on our website. Requests submitted through unauthorized or third-party channels may not be reviewed.
+            </p>
+          </div>
+
+          <div>
+            <h2 className="text-2xl font-bold text-foreground mb-4">[ ACKNOWLEDGMENT ]</h2>
+            <p>
+              By engaging our services, you acknowledge that you have read, understood, and agree to this Refund Policy and its terms.
+            </p>
+          </div>
         </div>
 
         {/* Bottom CTA */}
         <div className="mt-12 p-6 rounded-lg border border-border bg-primary/5 text-center">
-          <h3 className="text-lg font-semibold text-foreground mb-3">Professional Tax Relief Service</h3>
+          <h3 className="text-lg font-semibold text-foreground mb-3">[ PROFESSIONAL TAX RELIEF SERVICE ]</h3>
           <p className="text-muted-foreground mb-6">
-            Work with us for professional, ethical guidance on your tax situation with a commitment to transparent service.
+            Clear and fair refund policies designed to protect both our clients and the integrity of our professional services.
           </p>
           <Button asChild>
             <Link href="/get-started">Start Free Assessment</Link>
