@@ -107,8 +107,6 @@ export default function AboutPage() {
           <h2 className="text-3xl font-bold tracking-tight text-foreground">
             Why Choose Revelation Tax Relief?
           </h2>
-        </div>at We Do
-          </h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
