@@ -1,0 +1,1 @@
+- [x] Update the FAQ section in app/pricing/page.tsx to reflect the new pricing model (Milestone-Based Engagement and Subscription-Based Administrative Access), keeping the free consultation. Ensure no specific numbers are mentioned, as fees are case by case based on services rendered, not outcomes. Maintain the same theme and formatting.

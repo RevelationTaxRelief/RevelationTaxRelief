@@ -11,10 +11,10 @@ export default function PricingPage() {
       <section className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-32">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-4xl font-bold tracking-tight text-foreground sm:text-5xl">
-            Simple, Transparent Pricing
+            Flexible Engagement Options
           </h1>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            No hidden fees. No surprises. Choose the plan that works for you and get started today.
+            Choose the engagement model that fits your needs. Transparent pricing, no surprises, and support at every step.
           </p>
         </div>
       </section>
@@ -24,7 +24,7 @@ export default function PricingPage() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           {[
             {
-              name: "Assessment",
+              name: "Free Consultation",
               price: "Free",
               description: "Get started with your free tax assessment",
               features: [
@@ -40,38 +40,36 @@ export default function PricingPage() {
               highlighted: false,
             },
             {
-              name: "Professional",
-              price: "$297",
-              period: "one-time",
-              description: "Complete tax relief support and guidance",
+              name: "Milestone-Based Engagement",
+              price: "Case by Case",
+              period: "per milestone",
+              description: "Clients pay for defined administrative and consulting service phases",
               features: [
-                "Everything in Assessment, plus:",
-                "Full case consultation",
-                "Expert tax analysis",
-                "Document preparation",
-                "IRS communication support",
-                "Payment plan setup",
-                "Ongoing email support",
+                "Defined service phases",
+                "Billing at milestone completion",
+                "Documented service terms",
+                "Fees independent of outcomes",
+                "No regulatory timeline dependencies",
+                "Transparent cost structure",
               ],
-              cta: "Get Professional Help",
+              cta: "Request Consultation",
               ctaHref: "/get-started",
               highlighted: true,
             },
             {
-              name: "Premium",
-              price: "$597",
-              period: "one-time",
-              description: "Full resolution with white-glove service",
+              name: "Subscription-Based Administrative Access",
+              price: "Monthly",
+              period: "optional access",
+              description: "Optional monthly access for continued administrative oversight, document monitoring, and workflow tracking",
               features: [
-                "Everything in Professional, plus:",
-                "Dedicated case manager",
-                "Full IRS representation",
-                "Offer in Compromise support",
-                "Wage garnishment release",
-                "Tax lien negotiation",
-                "24/7 priority support",
+                "Ongoing administrative oversight",
+                "Document monitoring",
+                "Workflow tracking",
+                "Monthly billing",
+                "Flexible cancellation",
+                "Priority support access",
               ],
-              cta: "Choose Premium",
+              cta: "Subscribe Now",
               ctaHref: "/get-started",
               highlighted: false,
             },
@@ -87,7 +85,7 @@ export default function PricingPage() {
               {plan.highlighted && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2">
                   <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                    Most Popular
+                    Recommended
                   </span>
                 </div>
               )}
@@ -122,6 +120,8 @@ export default function PricingPage() {
         </div>
       </section>
 
+      {/* What's Included */}
+      <section className="border-t border-border bg-card/50"></section>
       {/* What's Included */}
       <section className="border-t border-border bg-card/50">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
@@ -186,28 +186,28 @@ export default function PricingPage() {
         <div className="space-y-6">
           {[
             {
-              question: "Is there a monthly subscription?",
-              answer: "No, our pricing is a one-time fee. You pay once and have lifetime access to your account and case files.",
+              question: "Is the initial consultation still free?",
+              answer: "Yes, the initial consultation is completely free. You'll get a personalized assessment with no obligation.",
             },
             {
-              question: "Can I upgrade my plan?",
-              answer: "Yes, you can upgrade at any time. We'll only charge you the difference between what you've paid and the new plan price.",
+              question: "How does the Milestone-Based Engagement work?",
+              answer: "Milestone-Based Engagement involves paying for defined administrative and consulting service phases. Billing occurs upon completion or activation of documented service milestones, and fees are independent of outcomes or regulatory timelines.",
             },
             {
-              question: "What if I'm not satisfied?",
-              answer: "We're committed to transparent service. If you have concerns within 30 days of purchase, contact us to discuss your experience.",
+              question: "What are the fees for Milestone-Based Engagement?",
+              answer: "Fees for Milestone-Based Engagement are determined on a case-by-case basis, based on the services rendered. There are no specific numbers; pricing is transparent and agreed upon upfront.",
             },
             {
-              question: "Are there additional costs?",
-              answer: "No hidden fees. The price you see is the price you pay. Some solutions may require IRS filing fees, which are clearly disclosed upfront.",
+              question: "What is the Subscription-Based Administrative Access?",
+              answer: "Subscription-Based Administrative Access is an optional monthly service providing continued administrative oversight, document monitoring, and workflow tracking.",
             },
             {
-              question: "Do you offer payment plans?",
-              answer: "Yes, we offer payment plans for our Professional and Premium plans. Contact us to discuss options.",
+              question: "How much does the subscription cost?",
+              answer: "The subscription cost is determined on a case-by-case basis. Contact us for a personalized quote.",
             },
             {
-              question: "What does the assessment cost?",
-              answer: "The initial assessment is completely free. You'll get personalized recommendations with no obligation.",
+              question: "Can I cancel the subscription anytime?",
+              answer: "Yes, you can cancel the subscription at any time with flexible cancellation terms.",
             },
           ].map((item) => (
             <div key={item.question} className="rounded-lg border border-border bg-card p-6">
